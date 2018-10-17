@@ -9,8 +9,6 @@ var usersRouter = require('./routes/users');
 
 var app = express();
 
-var bd = require('./modules/bd');
-bd.addUser();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
